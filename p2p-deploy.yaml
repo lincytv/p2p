@@ -36,7 +36,7 @@ spec:
           persistentVolumeClaim:
             claimName: azure-localapp-disk
       containers:
-      - image: azadpk8szzude4p8avxl.azurecr.io/p2p:2
+      - image: azadpk8szzude4p8avxl.azurecr.io/p2p:1
         imagePullPolicy: Always
         name: p2p
         volumeMounts:
